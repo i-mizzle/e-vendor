@@ -1,0 +1,33 @@
+.hero{
+    height:80vh;
+    position:relative;
+    background: url('../../assets/img/hero-bg.jpg') no-repeat center center;
+    background-size:cover;
+    /* align-items: center; */
+    /* display: flex; */
+    position: relative;
+}
+
+.about{
+    background-color: #ececec;
+}
+
+.search-form{
+    width:100%;
+    padding:10px;
+    position:absolute;
+    background-color:#fff;
+    box-shadow: 3px 3px 30px #00000012;
+    height:70px;
+    bottom:-85vh;
+    align-items: center;
+    display: flex;
+}
+
+.search-form>div{
+    width:100%;
+}
+
+select, button{
+    margin-top:10px;
+} 

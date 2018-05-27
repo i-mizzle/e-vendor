@@ -1,1 +1,100 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif; */
+
+p, a, li, h5, h6, a{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    cursor:pointer;
+    transition: 200ms all ease-in;
+}
+
+h1,h2,h3{
+    font-family: 'Merriweather', serif;
+}
+
+.section{
+    min-height:80vh;
+    height:inherit;
+    align-items:center;
+}
+
+.half-section{
+    min-height:40vh;
+    height:inherit;
+    align-items:center;
+}
+
+.underline-grey{
+    height:2px;
+    width:40px;
+    background-color:#000000a2;
+    margin-bottom:10px;
+}
+
+.body-container{
+    padding-top:70px;
+    z-index: 1;
+}
+
+input[type=text], input[type=email], textarea, select{
+    outline:none;
+    border:none;
+    padding:0.8em;
+    font-size:0.8em;
+    background-color: #f1f1f1;
+    border-radius:0px;
+    margin-bottom:10px;
+    transition: all 200ms ease;
+    color:#999;
+    width:100%;
+    border-bottom: 1px solid transparent;
+}
+
+select {
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;       /* remove default arrow */
+    /* background-image: url(...);   */
+}
+
+input[type=text]:hover, input[type=email]:hover, textarea:hover, select:hover{
+    background-color: #efeeee;
+}
+
+textarea{
+    height:150px;
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus, select:focus{
+    background-color:#fff;
+    border-bottom: 1px solid #743636;
+    border-radius:0;
+}
+
+button.search{
+    outline:none;
+    border:none;
+    padding:0.8em;
+    font-size:0.8em;
+    background-color: #000;
+    border-radius: 0px;
+    margin-bottom:10px;
+    transition: all 200ms ease;
+    color:#ffffffbd;
+    width:100%;
+    text-align: center;
+    cursor:pointer;
+}
+
+button.search:hover{
+    background-color: #743636;
+}
+
+.less-padding{
+    margin:0!important;
+    padding:5px!important;
+}

@@ -1,0 +1,48 @@
+header{
+    /* height:70px; */
+    /* align-items:center;
+    display:flex; */
+    background-color: #fff;
+    position:fixed;
+    width:100%;
+    z-index:999;
+}
+
+a.nav-link{
+    color:#000;
+    font-size:0.8em;
+    height:70px;
+    align-items:center;
+    display:flex;
+}
+
+.logo-container{
+    height:70px;
+    align-items:center;
+    display:flex;
+}
+
+a.nav-link:hover{
+    color:#999;
+}
+
+a.book-button{
+    background-color:#000;
+    color:#fff;
+}
+
+a.book-button:hover{
+    background-color:#743636;
+    color:#fff;
+}
+
+p.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight:400;
+    font-size:2em;
+}
+p.logo a{
+    color:#000;
+    text-decoration: none;
+}
+
