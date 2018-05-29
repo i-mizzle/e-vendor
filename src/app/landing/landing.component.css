@@ -8,7 +8,7 @@
     position: relative;
 }
 
-.about{
+.how-it-works{
     background-color: #ececec;
 }
 
@@ -22,6 +22,7 @@
     bottom:-85vh;
     align-items: center;
     display: flex;
+    z-index:998;
 }
 
 .search-form>div{
@@ -31,3 +32,22 @@
 select, button{
     margin-top:10px;
 } 
+
+i.fa-lg{
+    color: #733737;
+}
+
+p.step{
+    font-family:'Raleway', sans-serif;
+    font-weight:300;
+    margin-top:10px;
+}
+
+p.step-title{
+    font-size:0.8em;
+    font-weight:700;
+}
+
+p.step-text{
+    font-size:0.8em;
+}

@@ -19,12 +19,18 @@ import { ClientMenuComponent } from './client-area/client-menu/client-menu.compo
 import { CallToActionComponent } from './landing/call-to-action/call-to-action.component';
 import { FeaturedVendorsComponent } from './landing/featured-vendors/featured-vendors.component';
 import { TestimonialsComponent } from './landing/testimonials/testimonials.component';
+import { SupportComponent } from './support/support.component';
+import { InspirationComponent } from './inspiration/inspiration.component';
+import { SearchResultsComponent } from './search-results/search-results.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: LandingComponent },
   { path: 'booking', component: BookingFormComponent },
   { path: 'signup', component: SignupComponent },
   { path: 'signin', component: SigninComponent },
+  { path: 'support', component: SupportComponent },
+  { path: 'search/:term', component: SearchResultsComponent },
+  { path: 'inspiration', component: InspirationComponent },
   { path: 'vendor', component: VendorAreaComponent },
   { path: 'user', component: ClientAreaComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -47,7 +53,10 @@ const appRoutes: Routes = [
     ClientMenuComponent,
     CallToActionComponent,
     FeaturedVendorsComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    SupportComponent,
+    InspirationComponent,
+    SearchResultsComponent
   ],
   imports: [
     BrowserModule,

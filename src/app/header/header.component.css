@@ -31,7 +31,11 @@ a.book-button{
     color:#fff;
 }
 
-a.book-button:hover{
+a.active{
+    color:#743636 !important;
+}
+
+a.book-button:hover, a.booking-active{
     background-color:#743636;
     color:#fff;
 }

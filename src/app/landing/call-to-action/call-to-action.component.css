@@ -1,0 +1,29 @@
+.call-to-action{
+    margin-top:30px;
+    background-color:#733737;
+    height:100%;
+}
+
+p{
+    color:#ffffff8f;
+    font-size:1.5em;
+    font-weight: 400;
+    font-family:'Raleway', 400;
+}
+
+p a{
+    padding:0.7em;
+    font-size:0.8em;
+    border:2px solid #ffffff8f;
+    color: #ffffff8f;
+    background: transparent;
+    margin-left:20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+p a:hover{
+    background-color:#ffffff8f;
+    border: 2px solid transparent;
+    color:#733737;
+}

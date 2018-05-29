@@ -3,6 +3,8 @@
     align-items: center;
     display:flex;
     background-color: #efefef;
+    padding-top:50px;
+    padding-bottom:20px;
 }
 
 p.logo{
@@ -19,4 +21,31 @@ p.logo a{
 p{
     color:#000000a2;
     font-size:0.8em;
+}
+
+li{
+    list-style:none;
+    font-size:0.8em;
+}
+h6{
+    margin-bottom:20px;
+}
+a.book-now{
+    padding:1em;
+    background-color: #d9d9d9;
+}
+li.button{
+    margin-top:20px;
+}
+
+.copy{
+    height:60px;
+    display: flex;
+    align-items: center;
+    background-color:#d9d9d9;
+}
+
+input{
+    background-color:#d9d9d9;
+    cursor: text;
 }
