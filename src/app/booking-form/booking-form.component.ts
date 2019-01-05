@@ -8,6 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class BookingFormComponent implements OnInit {
 
   constructor() { }
+  showSerchResults:boolean=false;
+
+  showSearch(){
+    this.showSerchResults = true;
+  }
 
   ngOnInit() {
   }

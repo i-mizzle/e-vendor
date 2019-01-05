@@ -1,0 +1,39 @@
+.poster-image-container{
+    padding:5px;
+}
+
+.poster-image{
+    position:relative;
+    height:70px;
+    width:70px;
+    border:1px solid #9a9a9a;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    float:left;
+    margin-right:30px;
+}
+
+.rating{
+    margin-top:0px;
+}
+
+.rating i{
+    color:#FECE4F;
+    margin-right: 10px;
+}
+
+.vendor-name-container{
+    padding-top:30px;
+}
+
+a.vendor-name{
+    font-weight:500;
+    margin-bottom: 0px;
+    color:#000;
+    text-decoration: none;
+}
+
+a.vendor-name:hover{
+    color:#999;
+}
+

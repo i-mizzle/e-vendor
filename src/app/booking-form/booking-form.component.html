@@ -1,5 +1,33 @@
 <app-header></app-header>
-<div class="section booking">
-  
+<div class="section body-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <div class="search-form animated fadeIn">
+                    <div>
+                    <form>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4 less-padding">
+                                <select>
+                                    <option value="">Where's your event?</option>
+                                </select>
+                                </div>
+                                <div class="col-md-4 less-padding">
+                                <select>
+                                    <option value="">What do you need?</option>
+                                </select>
+                                </div>
+                                <div class="col-md-4 less-padding">
+                                <button class="search" (click)="showSearch()" type="submit">FIND A VENDOR</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <app-footer></app-footer>

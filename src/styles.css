@@ -60,6 +60,16 @@ h3.section-title{
     margin-bottom:100px;
 }
 
+h3.section-sub-title{
+    margin-top:20px;
+    margin-bottom:50px;
+    font-size:1em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #723838;
+}
+
 .section{
     min-height:80vh;
     height:inherit;
@@ -125,6 +135,25 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus, select:focus{
     border-radius:0;
 }
 
+button{
+    outline:none;
+    border:none;
+    padding:0.8em;
+    font-size:0.8em;
+    background-color: #000;
+    border-radius: 0px;
+    margin-bottom:10px;
+    transition: all 200ms ease;
+    color:#ffffffbd;
+    width:100%;
+    text-align: center;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: #743636;
+}
+
 button.search{
     outline:none;
     border:none;
@@ -151,4 +180,10 @@ button.search:hover{
 
 img{
     max-width: 100%;
+}
+
+h3.sidebar-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    font-size:0.9em;
 }

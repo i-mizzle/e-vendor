@@ -22,6 +22,7 @@ import { TestimonialsComponent } from './landing/testimonials/testimonials.compo
 import { SupportComponent } from './support/support.component';
 import { InspirationComponent } from './inspiration/inspiration.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
+import { VendorComponent } from './vendor/vendor.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: LandingComponent },
@@ -31,7 +32,8 @@ const appRoutes: Routes = [
   { path: 'support', component: SupportComponent },
   { path: 'search/:term', component: SearchResultsComponent },
   { path: 'inspiration', component: InspirationComponent },
-  { path: 'vendor', component: VendorAreaComponent },
+  { path: 'vendor/:id', component: VendorComponent },
+  { path: 'vendor-area', component: VendorAreaComponent },
   { path: 'user', component: ClientAreaComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: NotFoundComponent }
@@ -56,7 +58,8 @@ const appRoutes: Routes = [
     TestimonialsComponent,
     SupportComponent,
     InspirationComponent,
-    SearchResultsComponent
+    SearchResultsComponent,
+    VendorComponent
   ],
   imports: [
     BrowserModule,

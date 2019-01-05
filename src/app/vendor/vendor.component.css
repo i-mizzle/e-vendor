@@ -1,0 +1,69 @@
+.book-button button.search{
+    margin-top:30px !important;
+    padding:2em !important;
+    background-color: #723838 !important; 
+}
+
+.book-button button.search:hover{
+    background-color:#000 !important;
+}
+
+.featured-vendor{
+    margin-top:20px !important;
+}
+
+.timeline-item{
+    margin-bottom:20px;
+}
+
+span.service{
+    padding:8px;
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    background-color: #EFEFEF;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+    display: inline-block;
+}
+
+.vendor-timeline{
+    height:100vh;
+    overflow: scroll;
+}
+
+.underline-grey{
+    margin-bottom:30px !important;
+}
+
+.sidebar-item{
+    margin-bottom:25px;
+    /* min-height:100px; */
+    height:inherit;
+}
+
+p.reviewer{
+    font-weight:700;
+}
+
+h3.sidebar-title{
+    margin-top: 15px !important;
+}
+
+p.image-meta{
+    font: weight 300l;
+    color:#7E4B46;
+    font-size: 0.8em;
+    margin-top:20px;
+    margin-bottom:0px;
+}
+
+p.image-title{
+    font-weight:400;
+    font-size:0.8em;
+    margin-bottom:50px;
+}
